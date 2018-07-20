@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAACEB912E96A9AA5509884C /* Pods_MindfulNess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B15F731B1E4C01B09F27A5B8 /* Pods_MindfulNess.framework */; };
+		C50CF54520A034BC007F149D /* DevicesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50CF54420A034BC007F149D /* DevicesCollectionViewCell.swift */; };
+		C50CF54820A035A5007F149D /* BLEMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50CF54720A035A5007F149D /* BLEMainViewController.swift */; };
+		C50D4023205D5411006058EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50D4022205D5411006058EB /* AppDelegate.swift */; };
+		C50D4028205D5411006058EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C50D4026205D5411006058EB /* Main.storyboard */; };
+		C50D402A205D5411006058EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C50D4029205D5411006058EB /* Assets.xcassets */; };
+		C50D402D205D5411006058EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C50D402B205D5411006058EB /* LaunchScreen.storyboard */; };
+		C514F7C620A3A565005AEB3D /* NumberCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C514F7C520A3A565005AEB3D /* NumberCollectionViewCell.swift */; };
+		C535078D2068F412009AD3EA /* ProgressBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C535078C2068F412009AD3EA /* ProgressBarVC.swift */; };
+		C55291412084FE4B00604683 /* UUIDKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55291402084FE4B00604683 /* UUIDKey.swift */; };
+		C5634EE02091657C002524A6 /* ConnectedPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5634EDF2091657C002524A6 /* ConnectedPeripheral.swift */; };
+		C57E1BE3209A63A900070BEE /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57E1BE2209A63A900070BEE /* SettingViewController.swift */; };
+		C57E1BE5209A69E700070BEE /* MineInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57E1BE4209A69E700070BEE /* MineInfoViewController.swift */; };
+		C588C48120AAED7900A986F0 /* Master.swift in Sources */ = {isa = PBXBuildFile; fileRef = C588C48020AAED7900A986F0 /* Master.swift */; };
+		C5A80DCB208EAD5E009DBD39 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A80DCA208EAD5E009DBD39 /* BLEManager.swift */; };
+		C5CFFBED208A5D950015C4B2 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5CFFBEC208A5D950015C4B2 /* CoreBluetooth.framework */; };
+		C5E353CD209B97350031F9CA /* FocusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E353CC209B97350031F9CA /* FocusViewController.swift */; };
+		C5E353CF209B97A30031F9CA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E353CE209B97A30031F9CA /* HomeViewController.swift */; };
+		C5E353D1209BA3980031F9CA /* ObserveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E353D0209BA3980031F9CA /* ObserveViewController.swift */; };
+		C5FBB5D120968F9000D9FF12 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FBB5D020968F9000D9FF12 /* MainTabBarViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		361BCE38067CC29A09D8445F /* Pods-MindfulNess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindfulNess.release.xcconfig"; path = "Pods/Target Support Files/Pods-MindfulNess/Pods-MindfulNess.release.xcconfig"; sourceTree = "<group>"; };
+		6B083D332B090E241B2AB5BE /* Pods-MindfulNess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindfulNess.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MindfulNess/Pods-MindfulNess.debug.xcconfig"; sourceTree = "<group>"; };
+		B15F731B1E4C01B09F27A5B8 /* Pods_MindfulNess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindfulNess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50CF54420A034BC007F149D /* DevicesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesCollectionViewCell.swift; sourceTree = "<group>"; };
+		C50CF54720A035A5007F149D /* BLEMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEMainViewController.swift; sourceTree = "<group>"; };
+		C50D401F205D5411006058EB /* MindfulNess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindfulNess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50D4022205D5411006058EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C50D4027205D5411006058EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C50D4029205D5411006058EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C50D402C205D5411006058EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C50D402E205D5411006058EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C514F7C520A3A565005AEB3D /* NumberCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberCollectionViewCell.swift; sourceTree = "<group>"; };
+		C528AE7420AF2AAB003164D7 /* UICircularProgressRing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UICircularProgressRing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C535078C2068F412009AD3EA /* ProgressBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarVC.swift; sourceTree = "<group>"; };
+		C55291402084FE4B00604683 /* UUIDKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UUIDKey.swift; sourceTree = "<group>"; };
+		C5634EDF2091657C002524A6 /* ConnectedPeripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedPeripheral.swift; sourceTree = "<group>"; };
+		C57E1BE2209A63A900070BEE /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		C57E1BE4209A69E700070BEE /* MineInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineInfoViewController.swift; sourceTree = "<group>"; };
+		C588C48020AAED7900A986F0 /* Master.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Master.swift; sourceTree = "<group>"; };
+		C5A80DCA208EAD5E009DBD39 /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		C5CFFBEC208A5D950015C4B2 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		C5E353CC209B97350031F9CA /* FocusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusViewController.swift; sourceTree = "<group>"; };
+		C5E353CE209B97A30031F9CA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C5E353D0209BA3980031F9CA /* ObserveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserveViewController.swift; sourceTree = "<group>"; };
+		C5FBB5D020968F9000D9FF12 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C50D401C205D5411006058EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CFFBED208A5D950015C4B2 /* CoreBluetooth.framework in Frameworks */,
+				BAACEB912E96A9AA5509884C /* Pods_MindfulNess.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75D548DA08AA58BBCB5EE737 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C528AE7420AF2AAB003164D7 /* UICircularProgressRing.framework */,
+				C5CFFBEC208A5D950015C4B2 /* CoreBluetooth.framework */,
+				B15F731B1E4C01B09F27A5B8 /* Pods_MindfulNess.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		790A1717E9AAF3873DDCD256 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B083D332B090E241B2AB5BE /* Pods-MindfulNess.debug.xcconfig */,
+				361BCE38067CC29A09D8445F /* Pods-MindfulNess.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C50CF54620A034F0007F149D /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				C50D4026205D5411006058EB /* Main.storyboard */,
+				C50D402B205D5411006058EB /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		C50D4016205D5411006058EB = {
+			isa = PBXGroup;
+			children = (
+				C50D4021205D5411006058EB /* MindfulNess */,
+				C50D4020205D5411006058EB /* Products */,
+				790A1717E9AAF3873DDCD256 /* Pods */,
+				75D548DA08AA58BBCB5EE737 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C50D4020205D5411006058EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C50D401F205D5411006058EB /* MindfulNess.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C50D4021205D5411006058EB /* MindfulNess */ = {
+			isa = PBXGroup;
+			children = (
+				C50D4022205D5411006058EB /* AppDelegate.swift */,
+				C50D4029205D5411006058EB /* Assets.xcassets */,
+				C50D402E205D5411006058EB /* Info.plist */,
+				C535078C2068F412009AD3EA /* ProgressBarVC.swift */,
+				C55291402084FE4B00604683 /* UUIDKey.swift */,
+				C5A80DCA208EAD5E009DBD39 /* BLEManager.swift */,
+				C50CF54720A035A5007F149D /* BLEMainViewController.swift */,
+				C5634EDF2091657C002524A6 /* ConnectedPeripheral.swift */,
+				C5FBB5D020968F9000D9FF12 /* MainTabBarViewController.swift */,
+				C57E1BE2209A63A900070BEE /* SettingViewController.swift */,
+				C57E1BE4209A69E700070BEE /* MineInfoViewController.swift */,
+				C5E353CC209B97350031F9CA /* FocusViewController.swift */,
+				C5E353CE209B97A30031F9CA /* HomeViewController.swift */,
+				C5E353D0209BA3980031F9CA /* ObserveViewController.swift */,
+				C50CF54420A034BC007F149D /* DevicesCollectionViewCell.swift */,
+				C514F7C520A3A565005AEB3D /* NumberCollectionViewCell.swift */,
+				C50CF54620A034F0007F149D /* StoryBoard */,
+				C588C48020AAED7900A986F0 /* Master.swift */,
+			);
+			path = MindfulNess;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C50D401E205D5411006058EB /* MindfulNess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C50D4031205D5411006058EB /* Build configuration list for PBXNativeTarget "MindfulNess" */;
+			buildPhases = (
+				D459BD5151F9711213D5448E /* [CP] Check Pods Manifest.lock */,
+				C50D401B205D5411006058EB /* Sources */,
+				C50D401C205D5411006058EB /* Frameworks */,
+				C50D401D205D5411006058EB /* Resources */,
+				920FA963C52908440797924B /* [CP] Embed Pods Frameworks */,
+				332258DB6ABFAD80E43B554D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindfulNess;
+			productName = MindfulNess;
+			productReference = C50D401F205D5411006058EB /* MindfulNess.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C50D4017205D5411006058EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = upgradingmachine;
+				TargetAttributes = {
+					C50D401E205D5411006058EB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C50D401A205D5411006058EB /* Build configuration list for PBXProject "MindfulNess" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C50D4016205D5411006058EB;
+			productRefGroup = C50D4020205D5411006058EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C50D401E205D5411006058EB /* MindfulNess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C50D401D205D5411006058EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50D402D205D5411006058EB /* LaunchScreen.storyboard in Resources */,
+				C50D402A205D5411006058EB /* Assets.xcassets in Resources */,
+				C50D4028205D5411006058EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		332258DB6ABFAD80E43B554D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MindfulNess/Pods-MindfulNess-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		920FA963C52908440797924B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MindfulNess/Pods-MindfulNess-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MBCircularProgressBar/MBCircularProgressBar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBCircularProgressBar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MindfulNess/Pods-MindfulNess-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D459BD5151F9711213D5448E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MindfulNess-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C50D401B205D5411006058EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50CF54520A034BC007F149D /* DevicesCollectionViewCell.swift in Sources */,
+				C514F7C620A3A565005AEB3D /* NumberCollectionViewCell.swift in Sources */,
+				C55291412084FE4B00604683 /* UUIDKey.swift in Sources */,
+				C588C48120AAED7900A986F0 /* Master.swift in Sources */,
+				C5634EE02091657C002524A6 /* ConnectedPeripheral.swift in Sources */,
+				C5E353CF209B97A30031F9CA /* HomeViewController.swift in Sources */,
+				C57E1BE3209A63A900070BEE /* SettingViewController.swift in Sources */,
+				C5A80DCB208EAD5E009DBD39 /* BLEManager.swift in Sources */,
+				C50CF54820A035A5007F149D /* BLEMainViewController.swift in Sources */,
+				C5E353CD209B97350031F9CA /* FocusViewController.swift in Sources */,
+				C535078D2068F412009AD3EA /* ProgressBarVC.swift in Sources */,
+				C5FBB5D120968F9000D9FF12 /* MainTabBarViewController.swift in Sources */,
+				C57E1BE5209A69E700070BEE /* MineInfoViewController.swift in Sources */,
+				C5E353D1209BA3980031F9CA /* ObserveViewController.swift in Sources */,
+				C50D4023205D5411006058EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C50D4026205D5411006058EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C50D4027205D5411006058EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C50D402B205D5411006058EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C50D402C205D5411006058EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C50D402F205D5411006058EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C50D4030205D5411006058EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C50D4032205D5411006058EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B083D332B090E241B2AB5BE /* Pods-MindfulNess.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8C2X2WW56;
+				INFOPLIST_FILE = MindfulNess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imrankhan.MindfulNess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C50D4033205D5411006058EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 361BCE38067CC29A09D8445F /* Pods-MindfulNess.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8C2X2WW56;
+				INFOPLIST_FILE = MindfulNess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imrankhan.MindfulNess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C50D401A205D5411006058EB /* Build configuration list for PBXProject "MindfulNess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50D402F205D5411006058EB /* Debug */,
+				C50D4030205D5411006058EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C50D4031205D5411006058EB /* Build configuration list for PBXNativeTarget "MindfulNess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50D4032205D5411006058EB /* Debug */,
+				C50D4033205D5411006058EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C50D4017205D5411006058EB /* Project object */;
+}
